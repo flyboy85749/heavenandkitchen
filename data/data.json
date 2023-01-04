@@ -1,0 +1,48 @@
+{
+  "recipe_categories": [
+    {
+      "id": "Chicken",
+      "title": "Chicken Recipes",
+      "description": "Win the race against the dinner clock with these super-quick and easy chicken recipes. Call these your weeknight warriors. Discover 15 easy dinner ideas made with chicken.",
+      "image": "https://www.allrecipes.com/thmb/A_u9oLyi019B8ZmBynqmUugSQd0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Luckys-Quickie-Chickie-by-France-C-b9b50167568a462b9be3239f7fefd9ca.jpg"
+    },
+    {
+      "id": "Beef",
+      "title": "Beef Recipes",
+      "description": "How to make the best recipes with beef",
+      "image": "https://www.allrecipes.com/thmb/4H3E52vVUpEp5xg-8pE1fwZArRs=/771x514/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/221958-Chef-John-Perfect-Prime-Rib-2000-77d6ae47cc3b47dbb78fa55b144ce7b3.jpg"
+    },
+    {
+      "id": "Pork",
+      "title": "Pork Recipes",
+      "description": "How to make the best recipes with pork",
+      "image": "https://www.allrecipes.com/thmb/FyaQ1K03YHU1yV7HaOyQfV_b0KY=/771x514/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/on21-thanksgiving-bourbon-glazed-ham-photo-by-brie-passano-sq-crop-2000-aac1d9d017a947c38198443345a9d95d.jpg"
+    }
+  ],
+  "allRecipes": [
+    {
+      "id": "Prosciutto-Wrapped Pork Tenderloin with Crispy Sage",
+      "category": "Pork",
+      "title": "Prosciutto-Wrapped Pork Tenderloin with Crispy Sage",
+      "ingredients": ["pork", "salt", "prosciutto", "olive oil"],
+      "description": "Turn your weeknight dinner into a fancy affair with this easy pork tenderloin recipe.",
+      "image": "https://www.allrecipes.com/thmb/ifNsu4fHS9Mkk19IXpVKDB24k_s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2930533-prosciutto-wrapped-pork-tenderloin-with-crispy-sage-hello-angie-4x3-1-a290eeae1f874874a153339d5398357a.jpg"
+    },
+    {
+        "id": "Slow Cooker Beef Stew",
+        "category": "Beef",
+        "title": "Slow Cooker Beef Stew",
+        "ingredients": ["2 pounds beef stew meat, cut into 1-inch pieces", "1 medium onion, chopped", "1 clove garlic, minced", "1 ½ cups beef broth"],
+        "description": "This easy slow cooker beef stew recipe made with potatoes, carrots, celery, broth, herbs, and spices is hearty and comforting. You won't be slow to say 'yum'!",
+        "image": "https://www.allrecipes.com/thmb/QPQ_1-OXob5DPGA3NTF5_Ct1T8M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/14685-slow-cooker-beef-stew-mfs-315-e5994bd0cf47400caffbaf273504b72b.jpg"
+      },
+      {
+        "id": "Roast Chicken with Grapefruit",
+        "category": "Chicken",
+        "title": "Roast Chicken with Grapefruit",
+        "ingredients": ["3 ruby red grapefruit", "salt", "fresh parsley sprigs", "3 slices thick-cut bacon"],
+        "description": "Bacon, grapefruit, and a flambéed sauce turn a basic roast chicken into a holiday homerun in under two hours.",
+        "image": "https://www.allrecipes.com/thmb/i_nKZDHXWG41mXHoYb6pHhMmluc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Roast-Chicken-with-Grapefruit-4x3-1-f969245d84214699ba208c4fb215a54c.jpg"
+      }
+  ]
+}

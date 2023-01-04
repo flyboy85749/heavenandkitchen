@@ -1,10 +1,23 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 2em;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
 
 .description {
