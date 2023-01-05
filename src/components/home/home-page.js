@@ -22,7 +22,7 @@ export const HomePage = ({ data }) => {
 
 export async function getServerSideProps() {
   const { recipe_categories } = await import("/data/data.json");
-  console.log(recipe_categories);
+  
   return {
     props: {
       data: recipe_categories,
