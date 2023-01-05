@@ -22,15 +22,15 @@ export default function Home({ data, title }) {
         </nav>
       </header>
       <main>
-      {data?.map((recipe) => (
-        <Link key={recipe.id} href={`/recipes/${recipe.id}`}>
+      {data.meals?.map((recipe) => (
+        <Link key={recipe.idMeal} href={`/recipes/${recipe.idMeal}`}>
           <Image
             height={300}
             width={300}
-            alt={recipe.title}
-            src={recipe.image}
+            alt={recipe.strMeal}
+            src={recipe.strMealThumb}
           />
-          <h2>{recipe.title}</h2> <p>{recipe.description}</p>
+          <h3>{recipe.strMeal}</h3>
         </Link>
       ))}
     </main>
@@ -43,12 +43,24 @@ export default function Home({ data, title }) {
 }
 
 export async function getServerSideProps() {
-  const { recipe_categories } = await import("/data/data.json");
-  console.log(recipe_categories);
-  return {
-    props: {
-      data: recipe_categories,
-      title: "Heaven and Kitchen",
-    },
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '8eecbcc5f3msh5bc24b407332722p168923jsnad8e655c2cd4',
+      'X-RapidAPI-Host': 'themealdb.p.rapidapi.com'
+    }
   };
+
+  
+  
+  const data = await fetch('https://themealdb.p.rapidapi.com/latest.php', options)
+    .then(response => response.json())
+    .catch(err => console.error(err));
+
+  
+    return {
+
+      props: {data: data, title: "Heaven and Kitchen"},
+      
+    }
 }
